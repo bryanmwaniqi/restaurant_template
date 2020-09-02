@@ -5,7 +5,34 @@ body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
-.box{
-    max-width: 20px;
+nav.navbar{
+    width: 100%;
+}
+.scrolled{
+    background-color: rgb(255, 94, 0) !important;
+}
+.navbar-dark > .container::after {
+    content: "";
+    bottom: -1.25rem;
+    left: 0px;
+    right: 0px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.banner{
+    height: 35rem;
+    width: 100%;
+    background: linear-gradient(0deg,  rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('../assets/bonappeti.jpg');
+    background-position: center;
+    background-size: cover;
+    padding-top: 9rem;
+}
+#reserve-btn{
+    border-radius: 50px;
+    width: 20rem;
+    background-color:  rgb(255, 94, 0);
+}
+.meals{
+    height: 30rem;
 }
