@@ -1,5 +1,5 @@
 $(function(){
     $(window).scroll(function(){
-        $('nav').toggleClass('scrolled', $(this).scrollTop() > 200)
+        $('nav.navbar').toggleClass('scrolled', $(this).scrollTop() > 200)
     });
 });

@@ -7,23 +7,35 @@ body{
     padding: 0;
     overflow-x: hidden;
 }
+img{
+    object-fit: cover;
+}
 nav.navbar{
     width: 100%;
+    height: 5.5rem;
+}
+.navbar > .container{
+    position: relative;
 }
 .scrolled{
-    background-color: rgb(255, 94, 0) !important;
+    background-color: rgb(255, 255, 255) !important;
+    box-shadow: 0px 0px 10px -4px;
+}
+.scrolled a{
+    color: rgb(255, 94, 0) !important;
 }
 .navbar-dark > .container::after {
     content: "";
-    bottom: -1.25rem;
+    bottom: -1.5rem;
+    position: absolute;
     left: 0px;
     right: 0px;
     border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .banner{
-    height: 35rem;
+    height: 40rem;
     width: 100%;
-    background: linear-gradient(0deg,  rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('../assets/bonappeti.jpg');
+    background: linear-gradient(0deg,  rgba(0, 0, 0, 0.8),  rgba(0, 0, 0, 0.7)), url('../assets/beef.jpg');
     background-position: center;
     background-size: cover;
     padding-top: 9rem;
@@ -31,8 +43,39 @@ nav.navbar{
 #reserve-btn{
     border-radius: 50px;
     width: 20rem;
+    border-color:  rgb(255, 94, 0);
+}
+#reserve-btn.hover{
     background-color:  rgb(255, 94, 0);
+    color: #000;
 }
 .meals{
-    height: 30rem;
+    margin-top: 9rem;
+}
+.meals .row{
+    margin-bottom: 5rem;
+}
+.meal-1{
+    width: 22rem;
+    height: 16rem;
+    position: absolute;
+    top: 5.5rem;
+}
+.image-cushion{
+    width: 17rem;
+    height: 25rem;
+    background-color:  rgb(255, 146, 82);
+}
+.menu{
+    background-color: rgba(245, 245, 245, 0.562);
+}
+.menu img{
+    height: 6rem;
+    width: 6rem;
+    object-fit: cover;
+}
+.menu a{
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-size: 0.8rem;
 }
