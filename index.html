@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cafeteria</title>
     <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -332,11 +334,267 @@
 
     <!-- Reserve Table Section -->
 
-    <section class="reserve-table">
-        <div class="container"></div>
+    <section class="reserve-table mb-5">
+        <div class="row justify justify-content-center">
+            <div class="col-12 mb-3  mt-5 text-center">
+                <h4 class="text-Capitalise">Make Online Reservation</h4>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-7 mb-3">
+                <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur voluptatum accusamus incidunt 
+                    tempora repellendus quia sint voluptatibus soluta laboriosam?
+                </p>
+            </div>
+        </div>
+        <form>
+            <div class="container p-4">
+                <div class="form-row justify-content-center p-2">
+                    <div class="form-group col px-3">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" class="form-control form-control-lg"  id="fullname">
+                    </div>
+                    <div class="form-group col px-3">
+                        <label for="guests">Number of guests:</label>
+                        <input type="text" class="form-control form-control-lg"  id="guests">
+                    </div>
+                </div>
+                <div class="form-row justify-content-center p-2">
+                    <div class="form-group col px-3">
+                        <label for="fullname">Phone Number:</label>
+                        <input type="text" class="form-control form-control-lg"  id="fullname">
+                    </div>
+                    <div class="form-group col px-3">
+                        <label for="guests">Date</label>
+                        <input type="date" class="form-control form-control-lg"  id="guests">
+                    </div>
+                </div>
+                <div class="form-row justify-content-center p-2">
+                    <div class="form-group col px-3">
+                        <label for="fullname">Email address:</label>
+                        <input type="text" class="form-control form-control-lg"  id="fullname">
+                    </div>
+                    <div class="form-group col px-3">
+                        <label for="time">Time:</label>
+                        <input type="tie" class="form-control form-control-lg"  id="time">
+                    </div>
+                </div>
+                <div class="form-row justify-content-center p-4">
+                    <button type="submit" class="btn text-small p-3 btn-outline text-uppercase"><span>RESERVE TABLE</span></button>
+                </div>
+            </div>   
+        </form>
     </section>
+
+    <!-- newsletter section -->
+
+    <section class="newsletter">
+        <div class="container pt-1">
+            <div class="row justify justify-content-center mt-5">
+                <div class="col-12 mb-3  mt-5 text-center">
+                    <h4 class="text-Capitalise">Sign up to our newsletter</h4>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-5 mt-4">
+                        <div class="input-group mb-3">
+                            <input type="text" class="form-control" placeholder="email address" aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                              <button class="btn btn-outline-secondary" type="button" id="button-addon2">sign up</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+            </div>
+        </div>   
+    </section>
+
+    <!-- testimonials -->
+
+    <section class="testimonials my-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 mb-3  mt-5 text-center">
+                    <h4 class="text-Capitalise">Client Testimonials</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 mb-3">
+                    <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur voluptatum accusamus incidunt 
+                        tempora repellendus quia sint.
+                    </p>
+                </div>
+            </div>
+            <div class="owl-carousel">
+                <div class="item card ">
+                    
+                        <div class="card-body d-flex p-5">
+                            <span>"</span>
+                            <div class="container d-flex flex-column">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium iusto quasi ullam doloribus veritatis eius exercitationem, similique, voluptate hic vero aut id necessitatibus dolorum?
+                                </blockquote>
+                                <div class="d-flex mt-3">
+                                    <img src="assets/petkensingtone.jpg" alt="" class="img-fluid align-self-start rounded-circle">
+                                    <p class="ml-3 align-self-center">Jane Doe, Miami</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                      
+                </div>
+                <div class="item card">
+                    
+                        <div class="card-body d-flex p-5">
+                            <span>"</span>
+                            <div class="container d-flex flex-column">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium iusto quasi ullam doloribus veritatis eius exercitationem, similique, voluptate hic vero aut id necessitatibus dolorum?
+                                </blockquote>
+                                <div class="d-flex mt-3">
+                                    <img src="assets/petkensingtone.jpg" alt="" class="img-fluid align-self-start rounded-circle">
+                                    <p class="ml-3 align-self-center">Pet kensingtone, Belarus</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    
+                </div>
+                <div class="item card">
+                    
+                        <div class="card-body d-flex p-5">
+                            <span>"</span>
+                            <div class="container d-flex flex-column">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium iusto quasi ullam doloribus veritatis eius exercitationem, similique, voluptate hic vero aut id necessitatibus dolorum?
+                                </blockquote>
+                                <div class="d-flex mt-3">
+                                    <img src="assets/petkensingtone.jpg" alt="" class="img-fluid align-self-start rounded-circle">
+                                    <p class="ml-3 align-self-center">John Doe, Windhoek</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    
+                </div>
+                <div class="item card">
+                    
+                        <div class="card-body d-flex p-5">
+                            <span>"</span>
+                            <div class="container d-flex flex-column">
+                                <blockquote>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit praesentium iusto quasi ullam doloribus veritatis eius exercitationem, similique, voluptate hic vero aut id necessitatibus dolorum?
+                                </blockquote>
+                                <div class="d-flex mt-3">
+                                    <img src="assets/petkensingtone.jpg" alt="" class="img-fluid align-self-start rounded-circle">
+                                    <p class="ml-3 align-self-center">Pet kensingtone, Atlanta</p>
+                                </div>
+                            </div>
+                        </div>
+                            
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- blog section -->
+
+    <section class="blog">
+        <div class="container">
+            <div class="row justify justify-content-center">
+                <div class="col-12 mb-3  mt-5 text-center">
+                    <h4 class="text-Capitalise">Latest news & events</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 mb-3">
+                    <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur voluptatum accusamus incidunt 
+                        tempora repellendus quia sint.
+                    </p>
+                </div>
+            </div>
+            <div class="row justify-content-between">
+                <div class="col-sm-4">
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="assets/beer-bread.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, nobis asperiores autem velit neque soluta..</p>
+                        <a href="#" class="">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="assets/restaurant.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, nobis asperiores autem velit neque soluta..</p>
+                        <a href="#" class="">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="card bg-light">
+                        <img class="card-img-top" src="assets/bum-cheese.jpg" alt="Card image cap">
+                        <div class="card-body text-center">
+                        <h5 class="card-title">Special title treatment</h5>
+                        <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, nobis asperiores autem velit neque soluta..</p>
+                        <a href="#" class="">Read more...</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </section>
+
+    <!-- Our location -->
+    <section class="location">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 mb-3  mt-5 text-center">
+                    <h4 class="text-Capitalise">Find us on the map</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-7 mb-3">
+                    <p class="text-center text-muted">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur consectetur voluptatum accusamus incidunt 
+                        tempora repellendus quia sint.
+                    </p>
+                </div>
+            </div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.914039724503!2d36.88701894972713!3d-1.2198905991058548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f3fc955678a67%3A0x2c30e07746ac972a!2sTRM%20-%20Thika%20Road%20Mall!5e0!3m2!1sen!2ske!4v1600327082693!5m2!1sen!2ske"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>  
+    </section>
+
+    <!-- footer section -->
+
+    <footer class="footer-section">
+            <div class="row">
+                <div class="col-md-6 pl-5">
+                    <h3 class="text-light">Cafeteria</h3>
+                </div>
+                <div class="col-md-6 pr-5">
+                    <ul class="footer-nav text-light d-flex justify-content-md-end">
+                        <li class="mr-3">Terms & conditions</li>
+                        <li class="mr-3">Privacy policy</li>
+                        <li class="mr-3">Contact us</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 pl-5">
+                    <p class="text-muted">copyright 2020 bait systems. All rights reserved</p>
+                </div>
+                <div class="col-md-6 pr-5 d-flex justify-content-md-end">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+            </div>
+    </footer>
+
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

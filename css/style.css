@@ -10,6 +10,15 @@ body{
 img{
     object-fit: cover;
 }
+button, .testimonials .card{
+    border-color:  rgb(255, 94, 0) !important;
+}
+.rounded{
+    border-radius: 50px !important;
+}
+
+/* overall styling end */
+
 nav.navbar{
     width: 100%;
     height: 5.5rem;
@@ -41,11 +50,9 @@ nav.navbar{
     padding-top: 9rem;
 }
 #reserve-btn{
-    border-radius: 50px;
     width: 20rem;
-    border-color:  rgb(255, 94, 0);
 }
-#reserve-btn.hover{
+#reserve-btn:hover{
     background-color:  rgb(255, 94, 0);
     color: #000;
 }
@@ -66,7 +73,7 @@ nav.navbar{
     height: 25rem;
     background-color:  rgb(255, 146, 82);
 }
-.menu{
+.menu, .blog{
     background-color: rgba(245, 245, 245, 0.562);
 }
 .menu img{
@@ -78,4 +85,94 @@ nav.navbar{
     color: rgb(7, 7, 7);
     text-decoration: none;
     font-size: 0.8rem;
+}
+.reserve-table form button{
+    width: 15rem;
+}
+form input{
+    border-radius: 0px !important;
+    background-color: rgba(245, 245, 245, 0.562) !important;
+    font-size: 0.9rem !important;
+}
+form input:focus{
+    border-color: rgb(255, 94, 0) !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+}
+button span{
+    font-size: 0.8rem;
+}
+.newsletter{
+    background-color: rgba(245, 245, 245, 0.562);
+    height: 20rem;
+}
+.input-group{
+    border-radius: 50px !important;
+}
+.input-group-prepend{
+    background-color: none !important;
+    border: none !important;
+}
+.newsletter button{
+    width: 10rem;
+}
+.owl-carousel{
+    /* padding: 10px !important; */
+}
+.testimonials .card{
+    border-radius: 0px;
+    margin: 20px auto;
+}
+.testimonials .card img{
+    width: 3rem;
+    height:3rem;
+}
+.owl-carousel .owl-item{
+    transform: scale(0.9);
+    opacity: 0.5;
+    /* padding: 0em !important; */
+}
+.owl-carousel .owl-item.active.center{
+    transform: scale(1.05);
+    z-index: 999;
+    opacity: 1;
+}
+@media(max-width:900px){
+    .owl-carousel .owl-item.active.center{
+        transform: scale(1) !important;
+    }
+}
+.card span{
+    font-size: 4rem;
+    position: relative;
+    bottom: 1rem;
+}
+.blog{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+.blog .card{
+    border: none !important;
+}
+.blog .card a{
+    color: rgb(255, 94, 0) !important;
+}
+.location{
+    padding-top: 5rem;
+    padding-bottom: 5rem;  
+}
+.location iframe{
+    width: 100%;
+    height: 20rem;
+}
+footer{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color:rgb(52, 58, 64);
+}
+footer ul{
+    list-style: none;
+}
+footer p{
+    font-size: 13px;
 }
